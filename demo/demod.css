@@ -1,0 +1,131 @@
+body,
+html {
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+
+#container {
+    margin-top: 0;
+    height: fit-content;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+/* 
+h1 {
+    color: white;
+    text-align: center;
+    background-color: rgb(10, 45, 106);
+    border-radius: .2em;
+    width: 50%;
+    margin: 0 auto;
+    margin-block-start: 0em;
+    margin-block-end: 0.2em;
+} */
+
+header {
+    background-color: rgb(10, 45, 106);
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+header h1 {
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(248, 248, 248);
+    margin: 0px auto;
+}
+
+.singleInput{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+body{
+    margin: 0%;
+}
+
+.today{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.all{
+    margin-top: 10px;
+}
+
+.fill {
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#sumbitButton {
+    background-color: #db7d7d;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.here{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin: 600px;
+    color: black;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(10, 45, 106);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: lightgrey;
+}
+
+
+footer {
+    width: 100%;
+    position: absolute;
+    float: bottom;
+    text-align: center;
+    color: black;
+}
+
+.sub {
+    text-align: center;
+}
+
+button {
+    display: none;
+}

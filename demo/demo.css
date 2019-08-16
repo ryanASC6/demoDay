@@ -1,0 +1,53 @@
+body{
+    background-color: antiquewhite;
+}
+
+.here{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    background: brown;
+    color: white; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+}
+
+.t{
+    text-decoration: underline;
+    font-size: 33px;
+    color: red;
+    text-align: center;
+}
+
+ol.c {
+    list-style-type: square;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+  }
+
+  footer {
+    width: 100%;
+    position: absolute;
+    float: bottom;
+    text-align: center;
+    color: black;
+}
+
+ .date{
+     text-align: center;
+     text-decoration: underline;
+     font-size: 30px;
+     color: red;
+ }
+
+ head{
+     background-color: darkblue;
+     color: white;
+     text-decoration: underline;
+ }
+
+ 

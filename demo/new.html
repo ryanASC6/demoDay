@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search</title>
+    <link rel="stylesheet" href="new.css">
+    <script defer src="great.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-database.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#config-web-app -->
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDnfTUButWCcaO-b5KeHquDxxphtDIqsJk",
+            authDomain: "seeker-7c928.firebaseapp.com",
+            databaseURL: "https://seeker-7c928.firebaseio.com",
+            projectId: "seeker-7c928",
+            storageBucket: "",
+            messagingSenderId: "760503822485",
+            appId: "1:760503822485:web:6988dad244366480"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1><b>Seekr</b></h1>
+    </header>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="tips.html">Tips</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="help.html">Help</a>
+        <a href="services.html">Services</a>
+    </div>
+    <div class="img1"> </div>
+
+    <!-- 
+    <div id="youput">
+
+    </div> -->
+    <!-- // create a large div here
+       // then add border and border radius
+       // then give it an ID and call in it your JS
+       // Then change your appendChild to append to this div instead of the fetchData div -->
+
+    <div id="fetchData">
+        <b>Filters:</b>
+    </div>
+    <button id="button">Submit</button>
+
+    <div class="info">
+        <img src="https://www.cityguideny.com/uploads2/120414/DSCF9486-2.jpg">
+        <h2><a href="https://ripleysnewyork.com/">Ripley's Believe It or Not! Times Square</a></h2>
+        <p><b>Description</b> - Ripley's Believe It or Not! is an American franchise, founded by Robert Ripley.</p>
+        <p><b>Hours</b> - Monday, Tuesday, Wednesday and Sunday 10am - 11pm. Thursday, Friday and Saturday 10am - 1am.</p>
+        <p><b>Age Limit</b> - 4 and up.</p>
+        <p><b>Distance</b> - 2.3 miles.</p>
+        <p><b>Prices</b> - Adults are $25.60 online, $32.00 in person. Children are $19.20 online (Ages 4-12), $24.00 in person.</p>
+        <p><b>Average Rating</b> - <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span></span></p>
+    </div>
+
+    <div class="info">
+        <img src="https://assets3.thrillist.com/v1/image/2732279/size/tmg-article_default_mobile.jpg">
+        <h2><a href="https://www.thehighline.org/">The High Line</a></h2>
+        <p><b>Description</b> - The High Line is a 1.45-mile-long elevated linear park, greenway and rail trail created on a former New York Central Railroad on the west side.</p>
+        <p><b>Hours</b> - 7am - 11pm, Everyday.</p>
+        <p><b>Age Limit</b> - All ages premitted.</p>
+        <p><b>Distance</b> - 0.9 miles.</p>
+        <p><b>Prices</b> - Free for all.</p>
+        <p><b>Average Rating</b> - <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span></span></p>
+       
+    </div>
+
+
+    <div class="info">
+        <h2><a href="https://www.mms.com/en-us/mms-store-new-york">M&M'S World</a></h2>
+        <img src="https://i.pinimg.com/originals/e8/ab/75/e8ab75019af2b0e5a522dfecba570888.jpg">
+        <p><b>Description</b> - 25,000 square feet of M&Ms in a variety of flavors & colors, plus toys & related merchandise.</p>
+        <p><b>Hours</b> - Monday, Tuesday, Wednesday, Thursday and Sunday 9am - 12pm, Friday and Saturday 9am - 1am.</p>
+        <p><b>Age Limit</b> - All ages premitted.</p>
+        <p><b>Distance</b> - 2.9 miles.</p>
+        <p><b>Prices</b> - Free for all, however there are in store purchases.</p>
+        <p><b>Average Rating</b> - <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span></span></p>
+    </div>
+
+    <div class="info">
+        <h2><a href="https://natgeoencounter.com/">National Geographic Encounter</a></h2>
+        <img src="https://www.citysightsny.com/media/catalog/product/cache/26/image/9df78eab33525d08d6e5fb8d27136e95/n/a/nat-geo-encounter-1_3.jpg">
+        <p><b><b>Description</b></b> - National Geographic Encounter, also known as Ocean Odyssey due to its inaugural exhibit, is an exploration of the oceans attraction.</p>
+        <p><b>Hours</b> - Monday, Tuesday, Wednesday, Thursday and Sunday 10am - 9pm, Friday and Saturday 10am - 10pm.</p>
+        <p><b>Age Limit</b> - 3 and up.</p>
+        <p><b>Distance</b> - 2.4 miles.</p>
+        <p><b>Prices</b> - Adults are $39.50, Children are $32.50 (Age 3-12), Seniors and U.S Veterans are $36.50. For a family of 4 tickets are $100.</p>
+        <p><b>Average Rating</b> - <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span></span></p>
+    </div>
+    <div class="info">
+        <h2><a href="http://www.centralparknyc.org/">Central Park</a></h2>
+        <img src="https://cdn.vox-cdn.com/thumbor/1i4TW0_PBv9UOO03Ek1HaQW809I=/0x0:2460x1640/1200x900/filters:focal(1034x624:1426x1016)/cdn.vox-cdn.com/uploads/chorus_image/image/55997615/shutterstock_384332770.0.jpg">
+        <p><b>Description</b> - Central Park is an urban park in Manhattan, New York City. It is located between the Upper West Side and Upper East Side.</p>
+        <p><b>Hours</b> - 6am - 1am, Everyday.</p>
+        <p><b>Age Limit</b> - All ages premitted.</p>
+        <p><b>Distance</b> - 3.2 miles.</p>
+        <p><b>Prices</b> - Free for all.</p>
+        <p><b>Average Rating</b> - <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span></span></p>
+    </div>
+
+</body>
+
+</html>

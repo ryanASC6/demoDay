@@ -1,0 +1,47 @@
+body{
+    background-color: antiquewhite;
+}
+
+h1 {
+    background-color: darkblue;
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.t {
+    text-decoration: underline;
+    color: red;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+ol.c {
+    text-decoration: underline;
+    font-size: 37px;
+    list-style-type: square;
+}
+
+.container {
+    display: inline-flex;
+}
+
+.listDiv {
+
+    width: 45%;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    float: bottom;
+    text-align: center;
+    color: black;
+}
+
+img {
+
+    max-height: 200px;
+
+}

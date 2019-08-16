@@ -1,0 +1,18 @@
+h1{
+    color: white;
+    background-color: orange;
+    text-align: center;
+    text-decoration: underline;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    float: bottom;
+    text-align: center;
+    color: black;
+}
+
+body{
+    background-color: antiquewhite;
+}

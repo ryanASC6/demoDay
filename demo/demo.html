@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Results</title>
+    <link rel="stylesheet" href="demod.css">
+    <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-database.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#config-web-app -->
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDnfTUButWCcaO-b5KeHquDxxphtDIqsJk",
+            authDomain: "seeker-7c928.firebaseapp.com",
+            databaseURL: "https://seeker-7c928.firebaseio.com",
+            projectId: "seeker-7c928",
+            storageBucket: "",
+            messagingSenderId: "760503822485",
+            appId: "1:760503822485:web:6988dad244366480"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+
+<body>
+
+        <header>
+                <h1><b>Seekr</b></h1>
+            </header>
+
+            <header class="today">
+                    <h1><b>What are we doing today?</b></h1>
+                </header>
+
+    <div id="container">
+        <form class="all">
+            <div class="inputContainer">
+                <div class="singleInput">
+                    <label for="intrest">Interests:</label>
+                    <input value="" id="interest" type="text" placeholder="Photography..">
+                </div>
+                <div class="singleInput">
+                    <label for="hobbies">Hobbies:</label>
+                    <input value="" id="hobbies" type="text" placeholder="Shopping..">
+                </div>
+                <div class="singleInput">
+                    <label for="location">Borough:</label>
+                    <input value="" id="borough" type="text" placeholder="Manhattan..">
+                </div>
+                <div class="singleInput">
+                    <label for="zipcode">Zip Code:</label>
+                    <input value="" id="zipcode" type="text" placeholder="10109..">
+                </div>
+                <div class="singleInput">
+                    <label for="age">Age:</label>
+                    <input value="" id="age" type="text" placeholder="22..">
+                </div>
+                <div class="singleInput">
+                    <label for="howfar">How far do you want to go?</label>
+                    <select id="howfar" name="borough">
+                        <option value="queens">5 miles</option>
+                        <option value="thebronx">10 miles</option>
+                        <option value="brooklyn">15 miles</option>
+                        <option value="manhattan">20 miles</option>
+                        <option value="statenisland">50+ plus miles</option>
+                    </select>
+                    <input id="button" type="submit" value="Submit">
+                </div>
+
+            </div>
+        </form>
+    </div>
+   <button id="submitButton">Submit</button>
+
+    <a class="here" href="file:///C:/Users/ASCStudent/Documents/demo/new.html" target="_blank">Click here for your recommended events !</a>
+    <footer>Copyright © Seeker International 2019</footer>
+
+
+
+
+</body>
+<script src="great.js"></script>
+
+</html>
